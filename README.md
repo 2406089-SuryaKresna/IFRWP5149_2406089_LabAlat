@@ -2,5 +2,5 @@
 
 ### Praktikum Analisis Dan Berorientasi Objek
 
-- 🔭 I'm currently working on **Pengenalan lingkunagn praktikum dan kelas pemodelan UML**
+- 🔭 I'm currently working on **Pertemuan-2 UNIFIED MODELLING LANGUAGE (UML)**
 

@@ -1,0 +1,28 @@
+<mxfile host="Electron">
+  <diagram name="Page-1" id="lJlSfaLixHhwJdTLlzHj">
+    <mxGraphModel dx="918" dy="593" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="VEAudiovFqCpBiql8Gf6-1" parent="1" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;recursiveResize=0;container=1;collapsible=0;width=160;" value="Sistem Laboratorium" vertex="1">
+          <mxGeometry height="540" width="445" x="230" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="VEAudiovFqCpBiql8Gf6-16" edge="1" parent="VEAudiovFqCpBiql8Gf6-1" source="VEAudiovFqCpBiql8Gf6-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0.5;exitDx=0;exitDy=0;exitPerimeter=0;endArrow=none;endFill=0;" target="VEAudiovFqCpBiql8Gf6-15">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="VEAudiovFqCpBiql8Gf6-2" parent="VEAudiovFqCpBiql8Gf6-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="MAHASISWA" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="240" as="geometry" />
+        </mxCell>
+        <mxCell id="VEAudiovFqCpBiql8Gf6-3" parent="VEAudiovFqCpBiql8Gf6-1" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" value="Admin Akademik" vertex="1">
+          <mxGeometry height="60" width="30" x="50" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VEAudiovFqCpBiql8Gf6-12" parent="VEAudiovFqCpBiql8Gf6-1" style="whiteSpace=wrap;html=1;verticalAlign=middle;align=center;" value="&amp;nbsp;Lihat Jadwal kuliah" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="110" as="geometry" />
+        </mxCell>
+        <mxCell id="VEAudiovFqCpBiql8Gf6-15" parent="VEAudiovFqCpBiql8Gf6-1" style="whiteSpace=wrap;html=1;verticalAlign=middle;shape=ellipse;perimeter=ellipsePerimeter;" value="Kelola Jadwal Kuliah" vertex="1">
+          <mxGeometry height="60" width="120" x="290" y="240" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
