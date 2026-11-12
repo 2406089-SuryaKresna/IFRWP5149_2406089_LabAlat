@@ -1,0 +1,69 @@
+<mxfile host="app.diagrams.net">
+  <diagram id="JvCUSVIovjU__mKMhSAJ" name="Lihat KHS">
+    <mxGraphModel dx="966" dy="561" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="M2o7JLiym4lonkRdHy-r-1" parent="1" style="swimlane;horizontal=1;whiteSpace=wrap;html=1;startSize=30;fillColor=none;strokeColor=#000000;" value="Mahasiswa" vertex="1">
+          <mxGeometry height="520" width="280" x="140" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-2" parent="1" style="swimlane;horizontal=1;whiteSpace=wrap;html=1;startSize=30;fillColor=none;strokeColor=#000000;" value="Sistem" vertex="1">
+          <mxGeometry height="520" width="470" x="420" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-9" parent="M2o7JLiym4lonkRdHy-r-2" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#f8cecc;strokeColor=#b85450;arcSize=20;" value="Menampilkan pesan belum ada nilai yang dipublikasikan" vertex="1">
+          <mxGeometry height="60" width="80" x="370" y="225" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-3" parent="1" style="ellipse;html=1;shape=startState;fillColor=#000000;strokeColor=none;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="265" y="470" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-4" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=20;" value="Membuka fungsi Lihat KHS" vertex="1">
+          <mxGeometry height="50" width="160" x="200" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-5" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=20;" value="Menampilkan daftar semester" vertex="1">
+          <mxGeometry height="50" width="200" x="530" y="540" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-6" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;arcSize=20;" value="Memilih semester" vertex="1">
+          <mxGeometry height="50" width="160" x="200" y="640" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-7" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#FFFFFF;strokeColor=#000000;" value="Nilai pada semester tersebut sudah dipublikasikan?" vertex="1">
+          <mxGeometry height="90" width="200" x="530" y="620" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-8" parent="1" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;arcSize=20;" value="Menampilkan KHS semester tersebut yang memuat mata kuliah dan nilai yang sudah dipublikasikan" vertex="1">
+          <mxGeometry height="60" width="200" x="530" y="770" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-10" parent="1" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;strokeWidth=2;" value="" vertex="1">
+          <mxGeometry height="30" width="30" x="615" y="870" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-11" edge="1" parent="1" source="M2o7JLiym4lonkRdHy-r-3" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" target="M2o7JLiym4lonkRdHy-r-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-12" edge="1" parent="1" source="M2o7JLiym4lonkRdHy-r-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="M2o7JLiym4lonkRdHy-r-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-13" edge="1" parent="1" source="M2o7JLiym4lonkRdHy-r-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="M2o7JLiym4lonkRdHy-r-6">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points">
+              <mxPoint x="630" y="610" />
+              <mxPoint x="280" y="610" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-14" edge="1" parent="1" source="M2o7JLiym4lonkRdHy-r-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="M2o7JLiym4lonkRdHy-r-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-15" edge="1" parent="1" source="M2o7JLiym4lonkRdHy-r-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="M2o7JLiym4lonkRdHy-r-8" value="[ya]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-16" edge="1" parent="1" source="M2o7JLiym4lonkRdHy-r-7" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" target="M2o7JLiym4lonkRdHy-r-9" value="[tidak]">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-17" edge="1" parent="1" source="M2o7JLiym4lonkRdHy-r-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="M2o7JLiym4lonkRdHy-r-10">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="M2o7JLiym4lonkRdHy-r-18" edge="1" parent="1" source="M2o7JLiym4lonkRdHy-r-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=1;entryY=0.5;entryDx=0;entryDy=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" target="M2o7JLiym4lonkRdHy-r-10">
+          <mxGeometry relative="1" x="0.0027" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
